@@ -1,8 +1,6 @@
 /* Initialize Swiper -*/
 var swiper = new Swiper(".mySwiper", {
     effect: "coverflow",
-   
-    
     slidesPerView: "auto",
     coverflowEffect: {
       rotate: 20,
@@ -23,39 +21,22 @@ var swiper = new Swiper(".mySwiper", {
     
   });
 
-  // get slide
-  var slide = document.getElementById("swiper");
-  // Get the video
-var video = document.getElementById("myVideo");
+//   // get next button
+//   var next = document.getElementsByClassName("swiper-button-next");
+//   // get slide
+//   var slide = document.getElementById("swiper");
+//   // Get the video
+// var video = document.getElementById("myVideo");
 
-// Get the button
-var btn = document.getElementById("myBtn");
+// // Get the button
+// var btn = document.getElementById("myBtn");
 
-// Pause and play the video, and change the button text
-btn.addEventListener("click", function() {
-    if (video.paused) {
-      video.play();
-      btn.innerHTML = "Pause";
-      slide.style.display = "none";
-   
-    } else {
-      video.pause();
-      btn.innerHTML = "Play";
-      slide.style.display = "flex";
-  
-    }
-});
+// // Pause and play the video, and change the button text
+// slide.addEventListener('contextmenu', e => {
+//   e.preventDefault();
 
-// function myFunction() {
-//   if (video.paused) {
-//     video.play();
-//     btn.innerHTML = "Pause";
-//     slide.style.display = "none";
- 
-//   } else {
-//     video.pause();
-//     btn.innerHTML = "Play";
-//     slide.style.display = "flex";
+// });
 
-//   }
+// function myFunction(e) {
+//   e.preventDefault();
 // }

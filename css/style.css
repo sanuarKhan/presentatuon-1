@@ -19,9 +19,9 @@ html,
       }
 
       .swiper {
-        width: 60%;
+        width: 45%;
         transform: translateX(50%);
-         padding-top: 0;
+        padding-top: 0;
         padding-bottom: 60px; 
         
       }
@@ -68,10 +68,17 @@ html,
     }
         
 
-      .swiper-slide img {
-        display: block;
-        width: 100%;
+    #slVideo {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       }
+      #slVideo  video{
+        width: 100%;
+        height: 100%;
+        }
 
       /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
@@ -82,14 +89,14 @@ html,
   min-height: 100vh;
 }
 /* Add some content at the bottom of the video/page */
-.content {
+/* .content {
   position: fixed;
   left:0;
   bottom: 0;
   background: rgba(212, 45, 45, 0.5);
   color: #f1f1f1;
   padding: 20px;
-}
+} */
 
 /* Style the button used to pause/play the video */
 #myBtn {
@@ -135,4 +142,16 @@ html,
 #adVideo video{
   width: 100%;
   height: 100%;
+}
+#videoSlide{
+  position: fixed;
+  top: 10px;
+  left: 200px;
+  z-index: 222;
+}
+#rightPart{
+  position: fixed;
+  top: 10px;
+  right: 200px;
+  z-index: 111;
 }
