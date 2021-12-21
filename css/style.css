@@ -87,14 +87,14 @@ html,
   min-height: 100vh;
 }
 /* Add some content at the bottom of the video/page */
-/* .content {
+.content {
   position: fixed;
   left:0;
   bottom: 0;
   background: rgba(212, 45, 45, 0.5);
   color: #f1f1f1;
   padding: 20px;
-} */
+}
 
 /* Style the button used to pause/play the video */
 #myBtn {
